@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "grannys feed",
+  "version": "2.1",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "img/granny-favicon.png",
+    "128": "img/granny-favicon.png"
+  },
+  "oauth2": {
+    "client_id": "696513917405-tatjerfs329qthdg79s2ngscikok4k63.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive"
+    ]
+  },
+  "app": {
+    "background": {
+      "scripts": ["scripts/background.js"]
+    }
+  },
+  "permissions": [
+    "identity",
+    "https://ssl.gstatic.com/",
+    "https://www.googleapis.com/",
+    "https://accounts.google.com/"
+  ]
+}
